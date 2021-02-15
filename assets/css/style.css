@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url("../img/bg.jpg") no-repeat center center fixed;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: ghostwhite;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #1abc9c;
+}
+
+.box-Add-rol {
+    background: #9a867f;
+    width: 350px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-box-shadow: -7px 10px 115px 16px rgba(0, 0, 0, 0.85);
+    -moz-box-shadow: -7px 10px 115px 16px rgba(0, 0, 0, 0.85);
+    box-shadow: -1px 100px 190px 1px rgba(0, 0, 0, 0.85);
+}
+
+.box {
+    background: #9a867f;
+    width: 350px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 10px;
+    -webkit-box-shadow: -7px 10px 115px 16px rgba(0, 0, 0, 0.85);
+    -moz-box-shadow: -7px 10px 115px 16px rgba(0, 0, 0, 0.85);
+    box-shadow: -1px 100px 190px 1px rgba(0, 0, 0, 0.85);
+}
+
+.box input[type="text"],
+.box input[type="password"],
+.box input[type="email"],
+.box-Add-rol input[type="text"] {
+    border: 0;
+    background: black;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #48dbfb;
+    padding: 14px 10px;
+    width: 250px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25s;
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus,
+.box input[type="email"]:focus {
+    width: 280px;
+    border-color: #2ecc71;
+}
+
+.box button,
+.my-btn {
+    border: 0;
+    background: #ee5253;
+    width: 250px;
+    padding: 14px 20px;
+    border-radius: 24px;
+    outline: none;
+    color: white;
+}
+
+button:focus,
+.my-btn:focus {
+    width: 280px;
+    border-radius: 2px solid yellowgreen;
+    background: yellowgreen;
+}
+
+.registation-section {
+    padding: 170px 0 0 100px;
+}
+
+.reg-box {
+    background: #9a867f;
+    width: 400px;
+    padding: 5px 40px 40px;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-box-shadow: -7px 10px 115px 16px rgba(0, 0, 0, 0.85);
+    -moz-box-shadow: -7px 10px 115px 16px rgba(0, 0, 0, 0.85);
+    box-shadow: -1px 100px 190px 1px rgba(0, 0, 0, 0.85);
+}
+
+.my-table {}
+
+.update-box {
+    background: #9a867f;
+    width: 400px;
+    padding: 40px;
+    text-align: center;
+    border-radius: 10px;
+    -webkit-box-shadow: -7px 10px 115px 16px rgba(0, 0, 0, 0.85);
+    -moz-box-shadow: -7px 10px 115px 16px rgba(0, 0, 0, 0.85);
+    box-shadow: -1px 100px 190px 1px rgba(0, 0, 0, 0.85);
+}
